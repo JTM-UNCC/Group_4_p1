@@ -1,0 +1,15 @@
+
+div{
+    display: block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-top: 1px solid #687291;
+    background-color: #dfe1e7;
+}
+
+html {
+    font-family: Tahoma;
+    font-size: 40px;
+
+}
