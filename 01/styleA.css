@@ -6,6 +6,7 @@ div{
     text-align: center;
     border-top: 1px solid #687291;
     background-color: #dfe1e7;
+    flex-direction: column;
 }
 
 html {
