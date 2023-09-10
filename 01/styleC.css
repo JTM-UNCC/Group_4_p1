@@ -16,10 +16,14 @@
     border-left-width: 10px;
     border-color: #D0D0FF;
     cursor:pointer;
+    transition: background-image 2s, transform 2s;
 }
 
 .flex-container > div:hover {
     background-color: yellow;
+    color: goldenrod;
+    background-image: linear-gradient(teal, purple);
+    transform: rotate(360deg)
 }
 
 #F{
