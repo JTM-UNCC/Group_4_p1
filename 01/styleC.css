@@ -1,1 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
 
+.flex-container > div {
+    background-color: #eeeff2;
+    width: 100px;
+    height:150px;
+    margin: 10px;
+    text-indent: 10px;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-left-style: dotted;
+    border-left-width: 10px;
+    border-color: #D0D0FF;
+    cursor:pointer;
+    transition: background-image 2s, transform 2s;
+}
+
+.flex-container > div:hover {
+    background-color: yellow;
+    color: goldenrod;
+    background-image: linear-gradient(teal, purple);
+    transform: rotate(360deg)
+}
+
+#F{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
