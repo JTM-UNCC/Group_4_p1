@@ -1,1 +1,30 @@
-Hello World
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    text-indent: 10px;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-left-style: dotted;
+    border-left-width: 10px;
+    border-color: #D0D0FF;
+    cursor: pointer;
+}
+
+.flex-container > div:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+#F {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
